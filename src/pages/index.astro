@@ -1,12 +1,15 @@
 ---
 import MyAntdLayout from '../components/Layout';
 import Layout from '../layouts/Layout.astro';
+import VueComponent from "../components/VueComponent.vue";
 import 'antd/dist/reset.css';
 ---
 
 <Layout title="Welcome to Astro.">
 	<MyAntdLayout client:idle>
-		<div>12</div>
+		<div class="i-logo"></div>
+		<div class="text-red">12</div>
+		<VueComponent client:idle />
 	</MyAntdLayout>
 </Layout>
 

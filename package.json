@@ -16,12 +16,32 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
+    "@astrojs/image": "^0.16.5",
+    "@astrojs/preact": "^2.1.0",
     "@astrojs/react": "^2.1.1",
+    "@astrojs/solid-js": "^2.1.0",
+    "@astrojs/svelte": "^2.1.0",
+    "@astrojs/vue": "^2.1.1",
+    "@nanostores/react": "^0.4.1",
+    "@nanostores/solid": "^0.3.2",
+    "@nanostores/vue": "^0.7.0",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "antd": "^5.4.0",
     "astro": "^2.2.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "nanostores": "^0.7.4",
+    "preact": "^10.7.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.61.0",
+    "solid-js": "^1.4.3",
+    "svelte": "^3.48.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.48",
+    "@unocss/preset-icons": "^0.51.2",
+    "@unocss/reset": "^0.51.2",
+    "unocss": "^0.51.2"
   }
 }
