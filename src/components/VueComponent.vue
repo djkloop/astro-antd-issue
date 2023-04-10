@@ -7,7 +7,7 @@ const $isOpen = useStore(isOpen);
 
 <template>
   <div>
-    <div>Vue Component - {{ $isOpen }}</div>
+    <div class="text-red-500">Vue Component - {{ $isOpen }}</div>
     <button @click="() => isOpen.set(!$isOpen)">Change State!</button>
   </div>
 </template>
