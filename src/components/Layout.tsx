@@ -1,10 +1,9 @@
-import React from "react";
 import { Button, ConfigProvider, message, notification } from "antd";
 import { BorderBottomOutlined} from "@ant-design/icons";
 import type { NotificationPlacement } from "antd/es/notification/interface";
 
 // props: any ->  If props is set to any, it will always request
-function MyAntdLayout(props) {
+function MyAntdLayout(props: any) {
   const [messageApi, contextHolder] = message.useMessage();
 
   const info = () => {
